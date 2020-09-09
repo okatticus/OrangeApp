@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group android:id="@+id/menubar">
+        <item
+            android:id="@+id/Bar"
+            android:title="@string/BarCodeScanner"></item>
+    </group>
+    <group android:id="@+id/menuqr">
+        <item
+            android:id="@+id/Qr"
+            android:title="@string/QRCodeScanner"></item>
+    </group>
+    <group android:id="@+id/menudel">
+        <item
+            android:id="@+id/Delete"
+            android:title="Delete"></item>
+    </group>
+    <group android:id="@+id/menuScan">
+        <item
+            android:id="@+id/Scans"
+            android:title="Scanned items"></item>
+    </group>
+    <group android:id="@+id/menuStats">
+        <item
+            android:id="@+id/Statistics"
+            android:title="Statistics"></item>
+    </group>
+    <group android:id="@+id/changeLang">
+        <item
+            android:id="@+id/Lang"
+            android:title="@string/lang"></item>
+    </group>
+    <group android:id="@+id/userStats">
+        <item
+            android:id="@+id/userStatistics"
+            android:title="User Statistics"></item>
+    </group>
+    <group android:id="@+id/menulog">
+        <item
+            android:id="@+id/logOut"
+            android:title="Log Out"></item>
+    </group>
+</menu>

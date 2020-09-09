@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1.0"
+    tools:context="com.example.android.orange.ScanFragment">
+
+    <LinearLayout
+        android:id="@+id/Barlist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:text="BAR CODES"
+            android:textColor="#FF8F00" />
+
+        <TextView
+            android:id="@+id/noScans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nothing scanned yet.Scan some bar codes and visit again." />
+
+        <ListView
+            android:id="@+id/scanlistview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Qrlist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:orientation="vertical"
+        android:weightSum="1.0">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ff8f00" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:text="QR CODES"
+            android:textColor="#FF8F00" />
+
+        <TextView
+            android:id="@+id/noQRScans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nothing scanned yet.Scan some QR codes and visit again." />
+
+        <ListView
+            android:id="@+id/scanqrview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".7" />
+    </LinearLayout>
+</LinearLayout>

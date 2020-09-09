@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Orange</string>
+    <string name="FirstName">Prénom</string>
+    <string name="LastName">Nom de famille</string>
+    <string name="Email">Email</string>
+    <string name="Password">Mot de passe</string>
+    <string name="ConfirmPassword">Confirmez le mot de passe</string>
+    <string name="UserType">Type d\'utilisateur</string>
+    <string name="BarCode">Code à barre</string>
+    <string name="QRCode">QR Code</string>
+    <string name="ScannedItems">Articles numérisés</string>
+    <string name="Welcometo">Bienvenue à</string>
+    <string name="Hi">Salut</string>
+    <string name="Logout">Connectez - Out</string>
+    <string name="Statistics">Statistiques</string>
+    <string name="Other">Autre</string>
+    <string name="Admin">Admin</string>
+    <string name="Privileged">Privilégié</string>
+    <string name="title_activity_qr">QR Scanner</string>
+    <string name="signup">S\'inscrire</string>
+    <string name="dob">Date de naissance</string>
+    <string name="Login">S\'identifier</string>
+    <string name="ForgotPassword">"Mot de passe "</string>
+    <string name="Delete">"Effacer "</string>
+    <string name="QRCodeScanner">QR Scanner</string>
+
+    <string name="BarCodeScanner">Bar code Scanner</string>
+    <string name="splash">Bienvenue à Orange!</string>
+    <string name="lang">" La langue"</string>
+    <string name="change_Lan">"Changer de langue "</string>
+    <string name="restarting">" Orange va redémarrer maintenant."</string>
+</resources>

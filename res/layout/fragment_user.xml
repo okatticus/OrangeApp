@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.orange.UserFragment">
+
+    <TextView
+        android:id="@+id/barText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_above="@+id/barInfo"
+        android:textAllCaps="true"
+        android:textColor="#FF8F00"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/barInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="You can scan QR codes and bar codes in this application.The codes you scan are saved in
+         'Scanned items' section.\nClick on 'Statistics' to see how many codes have been scanned."
+        android:textAlignment="center"
+        android:textColor="#FF8F00"
+        android:textSize="7pt" />
+</RelativeLayout>

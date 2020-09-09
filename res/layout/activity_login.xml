@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/orange_2"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:scaleType="centerCrop"
+    tools:context="com.example.android.orange.MainActivity">
+
+    <TextView
+        android:id="@+id/txt_l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/Email"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_l1"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="@android:color/white"
+        android:cursorVisible="false"
+        android:hint="@string/Email"
+        android:maxLength="35"
+        android:padding="4dp"
+        android:textColor="#FFFFFF" />
+
+
+    <TextView
+        android:id="@+id/text_l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_margin="4dp"
+        android:text="@string/Password"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_l2"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="@android:color/white"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:maxLength="35"
+        android:padding="4dp"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text2"
+            android:layout_margin="8dp"
+            android:background="@drawable/buttonborder"
+            android:padding="4dp"
+            android:text="@string/Login"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/Forgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/buttonborder"
+            android:padding="8dp"
+            android:text="@string/ForgotPassword"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</LinearLayout>

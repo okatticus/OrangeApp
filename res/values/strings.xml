@@ -1,0 +1,42 @@
+<resources>
+
+    <string name="app_name">Orange</string>
+    <string-array name="user_array">
+        <item>Admin</item>
+    </string-array>
+    <string-array name="other_array">
+        <item>Privileged</item>
+        <item>Other</item>
+    </string-array>
+    <string name="title_activity_qr">QrActivity</string>
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="Email">Email</string>
+    <string name="UserType">User Type</string>
+    <string name="Password">Password</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="BarCode">Bar Code</string>
+    <string name="BarCodeScanner">Bar Code Scanner</string>
+    <string name="QRCode">QR Code</string>
+    <string name="QRCodeScanner">QR Code Scanner</string>
+    <string name="Welcometo">Welcome to</string>
+    <string name="Hi">Hi</string>
+    <string name="Logout">Logout</string>
+    <string name="Admin">Admin</string>
+    <string name="Other">Other</string>
+    <string name="Statistics">Statistics</string>
+    <string name="Privileged">Privileged</string>
+    <string name="ScannedItems">Scanned Items</string>
+    <string name="dob">Date of birth</string>
+    <string name="signup">Sign Up</string>
+    <string name="Login">Log In</string>
+    <string name="Delete">Delete</string>
+    <string name="ForgotPassword">Forgot Password</string>
+    <string name="lang">Language</string>
+    <string name="locale_lang">lang</string>
+    <string name="splash">Welcome to Orange!</string>
+    <string name="change_Lan">Change language</string>
+    <string name="restarting">Orange will restart now.</string>
+    <string name="Same">SaMe language selected</string>
+
+</resources>
